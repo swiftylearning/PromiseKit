@@ -24,6 +24,7 @@
 		631751C01D59768200A9DDDC /* 2.3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631751B41D59768200A9DDDC /* 2.3.2.swift */; };
 		631751C11D59768200A9DDDC /* 2.3.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631751B51D59768200A9DDDC /* 2.3.4.swift */; };
 		631F443A1E381B640044C63C /* Sealant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F44391E381B640044C63C /* Sealant.swift */; };
+		632714CF1E4D08C20043BBB2 /* Fundamentals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632714CD1E4D082D0043BBB2 /* Fundamentals.swift */; };
 		635D64231D59635300BC0AF5 /* AfterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D640E1D59635300BC0AF5 /* AfterTests.swift */; };
 		635D64271D59635300BC0AF5 /* RaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D64121D59635300BC0AF5 /* RaceTests.swift */; };
 		635D642B1D59635300BC0AF5 /* StressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D64161D59635300BC0AF5 /* StressTests.swift */; };
@@ -73,6 +74,7 @@
 		631751B51D59768200A9DDDC /* 2.3.4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.3.4.swift; sourceTree = "<group>"; };
 		631751B61D59768200A9DDDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		631F44391E381B640044C63C /* Sealant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sealant.swift; sourceTree = "<group>"; };
+		632714CD1E4D082D0043BBB2 /* Fundamentals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fundamentals.swift; path = Tests/CorePromise/Fundamentals.swift; sourceTree = "<group>"; };
 		635893921D5BE4E000F14B55 /* PromiseKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PromiseKit.playground; sourceTree = "<group>"; };
 		635893931D5BE4F900F14B55 /* CHANGELOG.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.markdown; sourceTree = "<group>"; };
 		635893941D5BE4F900F14B55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -124,10 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				635D640E1D59635300BC0AF5 /* AfterTests.swift */,
+				632714CD1E4D082D0043BBB2 /* Fundamentals.swift */,
 				635D64121D59635300BC0AF5 /* RaceTests.swift */,
-				49A5584B1DC5172F00E4D01B /* WrapTests.swift */,
 				635D64161D59635300BC0AF5 /* StressTests.swift */,
 				635D64171D59635300BC0AF5 /* RegressionTests.swift */,
+				49A5584B1DC5172F00E4D01B /* WrapTests.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632714CF1E4D08C20043BBB2 /* Fundamentals.swift in Sources */,
 				630F21801E3FF68A00F6DB1E /* Infrastructure.swift in Sources */,
 				635D64271D59635300BC0AF5 /* RaceTests.swift in Sources */,
 				635D642B1D59635300BC0AF5 /* StressTests.swift in Sources */,
@@ -455,7 +459,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = "5.0.0-alpha3";
+				CURRENT_PROJECT_VERSION = "5.0.0-alpha4";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -504,7 +508,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = "5.0.0-alpha3";
+				CURRENT_PROJECT_VERSION = "5.0.0-alpha4";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
